@@ -16,7 +16,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "aniket-keypair"
 
   tags = {
-    Name = "Raman-DevOps-batch-server"
+    Name = "ANiket-server-ansible"
     env = "Production"
     owner = "Raman Khanna"
   }
